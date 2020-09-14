@@ -36,8 +36,16 @@ To stop the running containers run the command `docker-compose down`
   </tr>
   <tr>
     <td>GET</td>
-    <td>/api/registeer</td>
+    <td>/api/register</td>
     <td>Get all registered users</td>
   </tr>
 
 </table>
+
+
+## Reistration fields
+
+-email
+-first_name
+-last_name
+-password
