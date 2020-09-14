@@ -197,4 +197,4 @@ HAYSTACK_CONNECTIONS = {
 }
 
 
-OSCARAPI_OVERRIDE_MODULES = ["drf_project.registration"]
+OSCARAPI_OVERRIDE_MODULES = ["oscar_project.registration"]
