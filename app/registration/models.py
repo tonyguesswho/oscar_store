@@ -52,7 +52,7 @@ class CustomUser(AbstractBaseUser, PermissionsMixin, AbstractTimeStampedModel):
 	is_staff = models.BooleanField(default=False)
 
 	USERNAME_FIELD = 'email'
-	REQUIRED_FIELDS = ['password']
+	REQUIRED_FIELDS = []
 
 	objects = CustomUserManager()
 
