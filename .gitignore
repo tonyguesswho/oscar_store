@@ -1,0 +1,5 @@
+eeenv
+__pycache__
+env
+*.sqlite3
+.vscode
